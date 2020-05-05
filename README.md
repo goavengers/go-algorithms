@@ -292,7 +292,7 @@ func foo(a, b []int) {
     }
 }
 
-fun foo(a, b []int) {
+func foo(a, b []int) {
     for len(a)-раз {
         for len(b)-раз {
             // do stuff
@@ -302,3 +302,20 @@ fun foo(a, b []int) {
 ```
 
 __Ответ:__ O(a * b)
+
+__9. Какая сложность у следующего алгоритма?__
+
+```go
+func foo(a, b []int) {
+    for _, x := range a {
+        for _, z := range b {
+            for k := 0; k < 100000; k++ {
+                // do stuff
+            }
+        }
+    }
+}
+
+```
+
+__Ответ:__ O(a * b), почему? 100000 это конечно много, но это константа и ее можно отбросить, помни это
