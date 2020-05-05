@@ -323,7 +323,7 @@ __Ответ:__ O(a * b), почему? 100000 это конечно много,
 __10. Какая сложность у следующего алгоритма?__
 
 ```go
-func revserse(n []int) {
+func reverse(n []int) {
     length := len(n)
 
     for i := 0; i < length / 2; i++ {
