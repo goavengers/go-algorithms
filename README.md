@@ -1,4 +1,8 @@
-# Подборка алгоритмов, которые правят миром
+<div align="center">
+  <img width="494" height="344" src="https://github.com/goavengers/go-algorithms/blob/master/img/go-alg.png">
+  <h1>Подборка алгоритмов, которые правят миром</h1>
+  <h5>Вместе мы разберемся!</h5>
+</div>
 
 ## Содержание
 
