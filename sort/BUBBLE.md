@@ -18,17 +18,17 @@ func BubbleSort(array []int) []int {
 	changed := true
 	length := len(array)
 
-    // пока есть изменения
+	// пока есть изменения
 	for changed {
 		changed = false
 
 		for i := 1; i < length; i++ {
-            // если порядок не верный
+			// если порядок не верный
 			if array[i-1] > array[i] {
-                // меняем местами элементы
+				// меняем местами элементы
 				array[i], array[i-1] = array[i-1], array[i]
 
-                // продолжаем сортировку
+				// продолжаем сортировку
 				changed = true
 			}
 		}
